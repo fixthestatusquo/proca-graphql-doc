@@ -1,0 +1,19 @@
+{
+  "name": "proca-api-doc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "graphql api documentation for proca servers",
+  "main": "generate.mjs",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "magidoc generate; git add docs; touch docs/.nojerkyll",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proca"
+  ],
+  "author": "Xavier",
+  "license": "AGPL-3.0-or-later"
+}
