@@ -28,7 +28,7 @@ staticAssets: fileURLToPath(new URL('./assets', import.meta.url)),
     template: 'carbon-multi-page',
     options: {
       appTitle: 'Proca graphql API',
-//      appLogo: '/assets/proca.svg',
+//      appLogo: '/proca-ftsql.png',
 //      appFavicon: '/assets/proca.svg',
       siteMeta: {
         description: "Proca GraphQL API.",
