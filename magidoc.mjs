@@ -27,7 +27,6 @@ staticAssets: fileURLToPath(new URL('./assets', import.meta.url)),
   website: {
     template: 'carbon-multi-page',
     options: {
-siteRoot: '/proca-graphql-doc',
       appTitle: 'Proca graphql API',
 //      appLogo: '/assets/proca.svg',
 //      appFavicon: '/assets/proca.svg',
@@ -41,8 +40,10 @@ siteRoot: '/proca-graphql-doc',
 This is the graphql API documentation for proca.
 
 ## Where to go next
+
 - Star the project on [GitHub](https://github.com/fixthestatusquo/proca) 
 - Check out the cli [that uses this API] (https://github.com/fixthestatusquo/proca-cli)
+
 `
       },
 //        { title: 'Introduction', content: './intro.md' },
