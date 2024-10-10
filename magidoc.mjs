@@ -40,16 +40,14 @@ staticAssets: fileURLToPath(new URL('./assets', import.meta.url)),
 This is the graphql API documentation for proca.
 
 ## Where to go next
+check the existing queries and mutations, with the types used.
 
 - Star the project on [GitHub](https://github.com/fixthestatusquo/proca) 
-- Check out the cli [that uses this API] (https://github.com/fixthestatusquo/proca-cli)
+- Check out the cli [that uses this API](https://github.com/fixthestatusquo/proca-cli)
 
 `
       },
 //        { title: 'Introduction', content: './intro.md' },
-        { title: 'Schema', content: 'schema' },
-        { title: 'Queries', content: 'queries' },
-        { title: 'Mutations', content: 'mutations' }
 
 ],
       queryGenerationFactories: {
