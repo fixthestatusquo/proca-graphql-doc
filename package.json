@@ -8,7 +8,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "magidoc generate; git add docs; touch docs/.nojerkyll",
+    "build": "magidoc generate; touch docs/.nojekyll;git add docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
