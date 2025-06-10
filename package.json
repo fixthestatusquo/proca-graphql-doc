@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "magidoc generate; sh fix.sh",
+    "preview": "magidoc preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
