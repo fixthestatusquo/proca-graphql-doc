@@ -47,6 +47,7 @@ This is the graphql API documentation for proca.
 check the existing queries and mutations, with the types used.
 
 - Star the project on [GitHub](https://github.com/fixthestatusquo/proca) 
+- Star the backend on [GitHub](https://github.com/fixthestatusquo/proca-server) 
 - Check out the cli [that uses this API](https://github.com/fixthestatusquo/proca-cli)
 
 `,
