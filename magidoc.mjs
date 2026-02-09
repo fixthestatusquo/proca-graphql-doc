@@ -23,7 +23,8 @@ const customErrorHandler = {
 export const htmlConfig = {
   introspection: {
     type: "url",
-    url: "https://api.proca.app/api",
+    //url: "https://api.proca.app/api",
+    url: "https://api-stg.proca.app/api",
   },
   errorHandler: customErrorHandler,
   staticAssets: fileURLToPath(new URL("./assets", import.meta.url)),
